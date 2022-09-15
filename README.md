@@ -39,7 +39,7 @@ You will now need to edit your 'application.properties' file to ensure the backe
 Navigate to the file (located within the 'resources' folder next to the 'java' folder) and open it in your desired editor. Ensure that you replace the specified password in the file with your own. It should look similar to what is shown bellow with your own password replacing 'passwordHere':
 
 ```
-server.port=5002
+server.port=5000
 spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
 spring.datasource.url=jdbc:mariadb://localhost:3306/Store
 spring.datasource.username = root
@@ -56,7 +56,7 @@ You are now ready to run the backend
 To run the backend, you will need to run the 'ProductBackendApplication' file (located within the 'java' folder) within an appropriate IDE such as IntelliJ. This should initialise spring boot and your backend should be working. Test this using software like Postman or Insomnia by sending a GET request to the following address:
 
 ```
-localhost:5002/products
+localhost:5000/paymentss
 ```
 
 This should return an empty JSON response if the database is currently empty.
